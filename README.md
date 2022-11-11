@@ -5,5 +5,5 @@
 
 ## 1. Digital clock
 ```
-<img src="./assets/digital_clock.png">
+<img src="/assets/digital_clock.png">
 ```
