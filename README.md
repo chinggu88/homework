@@ -5,5 +5,5 @@
 
 ## 1. Digital clock
 ```
-<img src="assets/digital_clock.png">
+![digital_clock](https://user-images.githubusercontent.com/12778054/201272964-dd16d1c4-356d-49a4-9780-4cc05dfddd80.png)
 ```
