@@ -5,7 +5,7 @@
 
 ## 1. Digital clock
 ```
-원본 : https://www.youtube.com/watch?v=PigzP0D9xeg
+- [원본정보](https://www.youtube.com/watch?v=PigzP0D9xeg)
 위에 애니메이션을 flutter로 변경
 CustomPaint 활용법과 삼각함수, 블러와 관련 기능 활용
 ```
