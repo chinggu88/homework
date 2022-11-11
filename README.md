@@ -1,16 +1,9 @@
 # home_work
 
-A new Flutter project.
+개인적인 공부를 저장해놓은 깃헙입니다. 
+주로 애니메이션 위주를 진행하고 있습니다.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 1. Digital clock
+```
+<img src="./assets/digital_clock.png">
+```
