@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:home_work/const/appPage.dart';
 
@@ -12,17 +10,31 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: SingleChildScrollView(
-          child: Column(
+          scrollDirection: Axis.horizontal,
+          child: Row(
             children: [
               //디지털시계
               GestureDetector(
                   onTap: () => Get.toNamed(clock),
                   child: Container(
-                      height: 50,
-                      width: Get.size.width,
-                      color: Colors.amber,
-                      child: Row(
-                        children: [Image.asset('assets/digital_clock.png')],
+                      height: Get.size.width,
+                      width: Get.size.width * 0.8,
+                      child: Card(
+                        child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Digital Clock',
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                '시계정보를 애니메니션으로 표현',
+                                style: TextStyle(
+                                    fontSize: 15, fontWeight: FontWeight.bold),
+                              ),
+                              Image.asset('assets/digital_clock.png'),
+                            ]),
                       )))
             ],
           ),

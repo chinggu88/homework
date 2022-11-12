@@ -5,7 +5,8 @@
 
 ## 1. Digital clock
 ```
-위에 애니메이션을 flutter로 변경
+시계정보를 애니메이션으로 표현 
+아래 원본정보의 화면을 보고 구현함
 CustomPaint 활용법과 삼각함수, 블러와 관련 기능 활용
 ```
 - [원본정보](https://www.youtube.com/watch?v=PigzP0D9xeg)
