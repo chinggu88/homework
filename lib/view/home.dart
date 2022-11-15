@@ -35,6 +35,29 @@ class HomePage extends StatelessWidget {
                               ),
                               Image.asset('assets/digital_clock.png'),
                             ]),
+                      ))),
+              //로딩화면
+              GestureDetector(
+                  onTap: () => Get.toNamed(circle),
+                  child: Container(
+                      height: Get.size.width,
+                      width: Get.size.width * 0.8,
+                      child: Card(
+                        child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'animation_circle',
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                '커스텀 서클애니메이션',
+                                style: TextStyle(
+                                    fontSize: 15, fontWeight: FontWeight.bold),
+                              ),
+                              Image.asset('assets/animation_circle.png'),
+                            ]),
                       )))
             ],
           ),
